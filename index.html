@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Digital Clock | Nishipal Rana</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="script.js" defer></script>
+    <style>
+      @media only screen and (min-width: 800px) and (max-width: 1024px) {
+        .text {
+          font-size: 3.5em;
+        }
+      }
+      @media only screen and (min-width: 1024px) {
+        .text {
+          font-size: 5em;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <video muted autoplay loop class="container" id="bg-video">
+      <source src="video.mp4" type="video/mp4" />
+    </video>
+    <div class="text">
+      <p id="date"></p>
+      <p id="time"></p>
+    </div>
+  </body>
+</html>
