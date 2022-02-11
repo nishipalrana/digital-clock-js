@@ -27,14 +27,6 @@ body {
   transform: translate(-50%, -50%);
   font-size: 35px;
   font-weight: 600;
-  background-color: #fff;
-  background-image: radial-gradient(
-      at 4% 36%,
-      rgb(238, 238, 238) 0,
-      transparent 53%
-    ),
-    radial-gradient(at 100% 30%, rgba(141, 140, 140, 0.781) 0, transparent 50%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: rgb(235, 243, 220);
+  
 }
